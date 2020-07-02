@@ -12,8 +12,8 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
+  name: Nithin Gunamgari
+  tagline: Robotics Engineer
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -22,8 +22,8 @@ plainwhite:
   # generate social links in footer
   social_links:
     twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
+    github:  nithin-gunamgari
+    linkedIn: in/nithin-gunamgari
     rss: rss
     # dribbble: jekyll
     # flickr:   jekyll
@@ -52,3 +52,4 @@ theme: plainwhite
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+remote_theme: thelehhman/plainwhite-jekyll
