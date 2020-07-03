@@ -21,7 +21,7 @@ plainwhite:
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
+    # twitter: thelehhman
     github:  nithin-gunamgari
     linkedIn: in/nithin-gunamgari
     rss: rss
