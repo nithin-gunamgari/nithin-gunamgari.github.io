@@ -22,7 +22,7 @@ rzp.capture(payment_id, cost)
 ```
 
 <img src="/assets/path.png" alt="path" style="height: 100px; width:100px;"/>
-<img src="/assets/slamekf.png" alt="path" style="height: 400px; width:400px;"/>
+<img src="/assets/slamekf.gif" alt="path" style="height: 400px; width:400px;"/>
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
