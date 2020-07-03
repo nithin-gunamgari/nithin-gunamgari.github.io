@@ -20,7 +20,8 @@ rzp.capture(payment_id, cost)
 		return 2;
 	})
 ```
-![gzbslam](assets/portfolio.png)
+[//]: # (![gzbslam](/assets/portfolio.png))
+<img src="/assets/portfolio.png" alt="path" style="height: 100px; width:100px;"/>
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
