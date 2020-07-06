@@ -58,7 +58,7 @@ Loop over the above updates for every time step.
 
 
 
-<img src="/assets/path.png" alt="path" style="height: 100px; width:100px;"/>
+<img src="/assets/path.png" alt="path" style="height: 400px; width:400px;"/>
 
 Green block - Odometry with black path
 
@@ -69,10 +69,5 @@ Robot - Turtlebot3 gazebo path in red
 <img src="/assets/slamekf.gif" alt="path" style="height: 400px; width:400px;"/>
 
 
-Checkout the [github repo][https://github.com/AakinDesai/ME-499/tree/master/slam] for the code.
+Checkout the [github repo](https://github.com/AakinDesai/ME-499/tree/master/slam) for the code.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
