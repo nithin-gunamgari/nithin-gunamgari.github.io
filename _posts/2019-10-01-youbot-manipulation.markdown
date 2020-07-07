@@ -6,7 +6,7 @@ categories: Vrep Python
 ---
 This project programed the youBot mobile manipulator to pick and place a block. Simulated the manipulation of KUKA youbot's trajectory to pick and place objects in V-Rep. Implemented closed loop PI control to correct initial and odometry error.
 <p align="center">
-  <img src="/assets/featured.gif" alt="path" align="center" style="height: 400px; width:400px;"/>
+  <img src="/assets/featured.gif" alt="path" align="center" style="height: 200px; width:200px;"/>
 </p>
 
 
