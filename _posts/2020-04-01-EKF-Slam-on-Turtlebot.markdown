@@ -5,6 +5,9 @@ date:   2020-04-01 21:03:36 +0530
 categories: ROS Python
 ---
 Performed EKF SLAM using odometry data and tele-operation in Gazebo and ROS.
+<p align="center">
+  <img src="/assets/slamekf.gif" alt="path" align="center" style="height: 400px; width:400px;"/>
+</p>
 
 ### EKF SLAM
 
