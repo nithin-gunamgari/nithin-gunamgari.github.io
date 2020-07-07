@@ -2,7 +2,7 @@
 layout: post
 title:  "DC Motor Control with PIC32 and MATLAB"
 date:   2020-01-15 21:03:36 +0530
-categories: C Microchip
+categories: C Microchip Matlab
 ---
 Building an intelligent motor driver which can accept a desired motor trajectory, execute that trajectory, and send the results back for error analysis.
 <p align="center">
