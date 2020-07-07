@@ -4,6 +4,7 @@ title:  "KUKA's Youbot Manipulation"
 date:   2019-09-23 21:03:36 +0530
 categories: Vrep Python
 ---
+<img src="/assets/featured.gif" alt="path" style="height: 400px; width:400px;"/>
 This project programed the youBot mobile manipulator to pick and place a block.
 
 The project includes:
