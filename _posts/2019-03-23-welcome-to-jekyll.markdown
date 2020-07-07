@@ -5,8 +5,7 @@ date:   2019-09-23 21:03:36 +0530
 categories: Vrep Python
 ---
 <img src="/assets/featured.gif" alt="path" align="center" style="height: 400px; width:400px;"/>
-
-This project programed the youBot mobile manipulator to pick and place a block.
+This project programed the youBot mobile manipulator to pick and place a block. Simulated the manipulation of KUKA youbot's trajectory to pick and place objects in V-Rep. Implemented closed loop PI control to correct initial and odometry error.
 
 The project includes:
 
@@ -46,9 +45,3 @@ The project is divided into four python scripts:
 - Add joint limits to avoid self-collision.
 - Acceleration limis
     - Add maximun acceleration limitation to avoid jerky motion.
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
