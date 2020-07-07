@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "KUKA's Youbot Manipulation"
-date:   2019-09-23 21:03:36 +0530
+date:   2019-10-01 21:03:36 +0530
 categories: Vrep Python
 ---
 This project programed the youBot mobile manipulator to pick and place a block. Simulated the manipulation of KUKA youbot's trajectory to pick and place objects in V-Rep. Implemented closed loop PI control to correct initial and odometry error.
