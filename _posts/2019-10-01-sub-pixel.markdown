@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Sub-Pixel Object tracking with Deep Learning"
+date:   2020-01-15 21:03:36 +0530
+categories: Python Pytorch OpenCV
+---
+Enabling a flexible and accurate encoder based on machine vision to track 2-D motion of objects in real time.
+<p align="center">
+  <img src="/assets/machine.gif" alt="path" align="center" style="height: 200px; width:200px;"/>
+</p>
+
+Click [here](https://colab.research.google.com/drive/1v3yrHb7O8qoPM0WD6u0Ol3dXtUOQSIPo?usp=sharing) to check the code for the above project.
+
+For a detailed description click [here](https://github.com/nithin-gunamgari/nithin-gunamgari.github.io/blob/master/assets/machined.pdf).
