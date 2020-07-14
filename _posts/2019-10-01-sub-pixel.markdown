@@ -9,6 +9,46 @@ Enabling a flexible and accurate encoder based on machine vision to track 2-D mo
   <img src="/assets/f2.gif" alt="path" align="center" style="height: 200px; width:200px;"/>
 </p>
 
+NVIDIA Flownet:
+
+- End to End Machine Learning Model to Track Optical Flow.
+
+- Combines several datasets from SINTEL, an Optical Flow Dataset from a 3D Animated Film, to Flying Chairs which has 3D chair models superimposed on random pictures.
+
+- Comes in Many Different Versions with Different Speeds and Capabilities.
+
+Flownet S:
+
+- Input: two stacked images ([image(t), image(t-1)]).
+
+- Encode: 9 Convolutional layers (strides: 2) 
+                 ○ conv 7*7: 1 layers 
+                 ○ conv 5*5: 2 layers 
+                 ○ conv 3*3: 6 layers
+
+- Decode: Refinement layers 
+
+
+Flownet C:
+
+- FlowNet C first produce representations of the two images separately, 
+
+- Combines them together in the ‘correlation layer’, and learn the higher representation together.
+
+Flownet 2:
+
+- FLownet 2 is a small and simple deep network (Fusion) to fuse the output of FlowNet 2-CSS and FlowNet 2-SD.
+
+- FlowNet 2-SD is a little different than FlowNet S. They replaced the 7*7 and 5*5 kernels in the beginning with multiple 3*3 kernels, and removed the stride 2 in the first layer.
+
+- FlowNet 2-CSS is combination of FLownet C and two FlowNet S. 
+
+| Description  | FlowNet C  | FlowNet 2  |
+|---|---|---|
+| Average End point error  | 4.31  | 2.02  |
+| Runtime in millisecond per frame (GPU)  | 32  | 123  |
+
+
 Click [here](https://colab.research.google.com/drive/1v3yrHb7O8qoPM0WD6u0Ol3dXtUOQSIPo?usp=sharing) to check the code for the above project.
 
 For a detailed description click [here](https://github.com/nithin-gunamgari/nithin-gunamgari.github.io/blob/master/assets/machined.pdf).
